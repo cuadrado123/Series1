@@ -1,0 +1,49 @@
+.separacion {
+	margin-left: 200px;
+	margin-top: 30px;
+	color: white;
+}
+ .pos {
+ 	margin-left: 200px;
+ 	color: white;
+ }
+ .pos1 {
+ 	margin-left: 20px;
+ 	margin-top: 20px;
+ 	color: white;
+}
+.tabla {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 100px;
+	background-color: red;
+}
+
+.pos2 {
+	margin-left: 430px;
+	color: white;
+}
+
+body {
+	background-image: url(../imagenes/fondo.jpg);
+} 
+
+.inline {
+	float: left;
+}
+
+.serie {
+	margin-left: 20px;
+ 	margin-top: 20px
+}
+
+.video{
+	width: 1000px;
+	height: 500px;
+	margin-left: 50px
+}
+
+.seg{
+	margin-left: 370px;
+	color: white;
+}
