@@ -15,11 +15,13 @@ $(function() {
 function cambiarImagen(categoria) {
 	var tabla = $("#tab_accion");
 	tabla.empty();
+	var tr = document.createElement("tr");
+	var contador = 0;
 	var baseDatosSeries = firebase.database().ref("/series/");
 	baseDatosSeries.on("value", snapshot => {
 		console.log(snapshot.val());
-		var tr = document.createElement("tr");
 		snapshot.forEach(snap => {
+			contador += 1
 			console.log(snap.val().categoria);
 			console.log(categoria);
 			if (categoria == "todo" || categoria == snap.val().categoria){
@@ -28,17 +30,31 @@ function cambiarImagen(categoria) {
 				var input = document.createElement("input");
 				input.type = "image";
 				input.src = snap.val().url;
-				input.style.width = "161px";
-				input.style.height = "237px";
+				input.style.width = "200px";
+				input.style.height = "320px";
 				a.href = "series.html";
 				input.classList.add("serie");
 				a.append(input);
 				td.append(a);
 				tr.append(td);
+				if (contador == 4){
+					tabla.append(tr);
+					tr = document.createElement("tr");
+					contador = 0;
+				}
 			}
 		})
-		tabla.append(tr);
+		
 	})
+}
+
+$(".pos").click(function(event){
+    event.preventDefault();
+});
+
+function cargar(pag, tab) {
+	$(tab).load(pag);
+	
 }
 
 function tomarDatos(){
@@ -51,11 +67,3 @@ function tomarDatos(){
 	document.getElementById("lblComentario").innerHTML = Comentario
 }
 
-function cargar(pag, tab) {
-	$(tab).load(pag);
-	console.log("Holas");
-
-}
-$(".pos").click(function(event){
-    event.preventDefault();
-});
