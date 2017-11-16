@@ -6,16 +6,12 @@
 
 body {
   padding-top: 54px;
+  background-color: #2F4F4F;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
-}
-
-body{
-	background-color: #2F4F4F;
-
 }
 
