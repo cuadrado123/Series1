@@ -43,7 +43,7 @@ function cambiar(llave){
                 let titulo, descripcion, video;
                 titulo = document.getElementById("vid_titulo");
                 titulo.innerHTML = snap.val().nombre;
-                titulo.classList = "letra_titulo"
+                titulo.classList = "letra_titulo card-body"
                 imgContainer = document.getElementById("video");
                 video = document.createElement("iframe");
                 video.src = snap.val().video;
@@ -51,7 +51,7 @@ function cambiar(llave){
                 video.classList = "video"
                 descripcion = document.getElementById("descripcion");
                 descripcion.innerHTML = snap.val().descripcion;
-                descripcion.classList = "letra_descripcion"
+                descripcion.classList = "letra_descripcion card-body"
 
             });
      }
