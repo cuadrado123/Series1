@@ -1,6 +1,6 @@
 .tamaño{
 	width: 100%;
-	height: 90%;
+	height: 93%;
 }
 
 .video{
@@ -22,3 +22,7 @@
 	font-size: 25px;
 }
 
+.posicion{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

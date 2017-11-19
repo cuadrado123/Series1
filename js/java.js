@@ -65,7 +65,36 @@ function cambiar(llave){
 
 
 function cargar(pag) {
-    $('#tabSeccion').load(pag);
+
+    var database = firebase.database().ref('/series/');
+
+    $('#tabSeccion').load("./seccion.html", function(res, stat){
+        if(stat != "error"){
+
+            database.on("value" ,snapshot => {
+                snapshot.forEach(snap =>{
+
+                    if (snap.val().categoria == pag){
+
+
+                        let series = document.getElementById("containerxD");
+                        let div, img, a;
+                        div = document.createElement("div");
+                        div.classList = "col-lg-3 col-md-4 col-xs-6";
+                        img = document.createElement("img");
+                        img.src = snap.val().url;
+                        img.classList = "tamaño";
+                        a = document.createElement("a");
+                        console.log(snap.key)
+                        a.onclick = e => {cambiar(snap.key)};
+                        a.append(img);
+                        div.append(a);
+                        series.append(div);
+                    }
+                })
+            })
+        }
+     });
     }
 
 window.onload = function(argument) {
@@ -93,7 +122,7 @@ function search(){
                         let series = document.getElementById("ubicacion");
                         let div, img, a;
                         div = document.createElement("div");
-                        div.classList = "col-6";
+                        div.classList = "col-7 posicion";
                         img = document.createElement("img");
                         img.src = snap.val().url;
                         img.classList = "tamaño";
