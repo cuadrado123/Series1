@@ -11,15 +11,16 @@ podras ver
 Esta pagina web se adapta a cualquier dispositivo, con el telefono, con la table o con el tele.
 
 # Desarrollador
-### Antonio Cuadrado Valdez
-### 5to Año C
-### Proyecto conjunto: Programacion y Sistema de informacion.
-### Instituto Tecnico Salesiano Villada
+#### Antonio Cuadrado Valdez
+#### 5to Año C
+#### Proyecto conjunto: Programacion y Sistema de informacion.
+#### Instituto Tecnico Salesiano Villada
 
 # Dependencias
 Series19.com usa un numero de dependecias para funcionar correctamente:
-| Nombre | Descripcion|
-| ------ | -----------|
+
+| Nombre | Descripcion |
+| ------ | ------ |
 | JQuery | Es un framework de Javascript |
 | FireBase | Base de datos |
 | Bootstrap | La UI para diseñar paginas web modernas |
@@ -27,13 +28,15 @@ Series19.com usa un numero de dependecias para funcionar correctamente:
 Tambien se a utlizado el Trello para el desarrollo de la pagina web	
 https://trello.com/b/TV6z9z59/series19
 
-# [Start Bootstrap - Thumbnail Gallery](https://startbootstrap.com/template-overviews/thumbnail-gallery/)
-
 [Thumbnail Gallery](http://startbootstrap.com/template-overviews/thumbnail-gallery/) is a responsive thumbnail grid template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview
 
 [![Thumbnail Gallery Preview](https://startbootstrap.com/assets/img/templates/thumbnail-gallery.jpg)](https://blackrockdigital.github.io/startbootstrap-thumbnail-gallery/)
+
+Esta imagen se utlizo para ordenar el proyecto la cual fue descargada del siguiente sitio.
+
+https://startbootstrap.com/template-overviews/thumbnail-gallery/
 
 # Contacto / Sugerencias / Bugs
 
