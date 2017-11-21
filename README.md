@@ -39,14 +39,6 @@ https://trello.com/b/TV6z9z59/series19
 
 ![](https://firebasestorage.googleapis.com/v0/b/series19-4b694.appspot.com/o/serie2.png?alt=media&token=90482964-c499-49ff-a9a4-8b0460b67003)
 
-[![Thumbnail Gallery Preview](https://startbootstrap.com/assets/img/templates/thumbnail-gallery.jpg)](https://blackrockdigital.github.io/startbootstrap-thumbnail-gallery/)
-
-[Thumbnail Gallery](http://startbootstrap.com/template-overviews/thumbnail-gallery/) es una plantilla de cuadrícula de miniaturas receptiva para [Bootstrap](http://getbootstrap.com/) creada por [Start Bootstrap](http://startbootstrap.com/).
-
-Esta imagen se utlizo para ordenar el proyecto la cual fue descargada del siguiente sitio.
-
-https://startbootstrap.com/template-overviews/thumbnail-gallery/
-
 # Contacto / Sugerencias / Bugs
 
 ##### **Antonio Cuadrado Valdez**
