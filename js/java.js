@@ -40,10 +40,10 @@ function cambiar(llave){
             var database = firebase.database().ref('/series/' + llave);
             database.on("value", snap =>{
                 let imgContainer
-                let titulo, descripcion, video;
+                let titulo, descripcion, temporadas, produccion, video;
                 titulo = document.getElementById("vid_titulo");
                 titulo.innerHTML = snap.val().nombre;
-                titulo.classList = "letra_titulo card-body"
+                titulo.classList = "letra_titulo"
                 imgContainer = document.getElementById("video");
                 video = document.createElement("iframe");
                 video.src = snap.val().video;
@@ -51,7 +51,17 @@ function cambiar(llave){
                 video.classList = "video"
                 descripcion = document.getElementById("descripcion");
                 descripcion.innerHTML = snap.val().descripcion;
-                descripcion.classList = "letra_descripcion card-body"
+                descripcion.classList = "letra_descripcion"
+                temporadas = document.getElementById("temporadas");
+                temporadas.innerHTML = snap.val().temporadas;
+                temporadas.classList = "letra"
+                produccion = document.getElementById("produccion");
+                produccion.innerHTML = snap.val().produccion;
+                produccion.classList = "letra"
+
+
+
+
 
             });
      }

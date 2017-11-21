@@ -14,12 +14,12 @@
 }
 
 .pos{
-	margin-top: 30%;
+	margin-top: 35%;
 }
 
 .letra_descripcion{
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .posicion{
@@ -27,6 +27,12 @@
 	margin-bottom: 20px;
 }
 
-.boton{
-	margin-bottom: 10%;
+.tem{
+	margin-left: 10%;
+
+}
+
+.letra{
+	color: #778899;
+	font-size: 25px;
 }
