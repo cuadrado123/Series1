@@ -31,9 +31,9 @@ https://trello.com/b/TV6z9z59/series19
 
 ## Imagenes De La Pagina
 	
-![Pagina Principal] (/home/antonio/Imágenes/serie.png)
+[![Pagina Principal] (/home/antonio/Imágenes/serie.png)]
 
-![Informacio De La Serie] (/home/antonio/Imágenes/serie2.png)
+[![Informacio De La Serie] (/home/antonio/Imágenes/serie2.png)]
 
 [![Thumbnail Gallery Preview](https://startbootstrap.com/assets/img/templates/thumbnail-gallery.jpg)](https://blackrockdigital.github.io/startbootstrap-thumbnail-gallery/)
 
