@@ -28,11 +28,15 @@ Series19.com usa un numero de dependecias para funcionar correctamente:
 Tambien se a utlizado el Trello para el desarrollo de la pagina web	
 https://trello.com/b/TV6z9z59/series19
 
-[Thumbnail Gallery](http://startbootstrap.com/template-overviews/thumbnail-gallery/) is a responsive thumbnail grid template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-## Preview
-
+## Imagenes De La Pagina
+	
+file:///home/antonio/Im%C3%A1genes/serie.png
+file:///home/antonio/Im%C3%A1genes/serie2.png
+	
 [![Thumbnail Gallery Preview](https://startbootstrap.com/assets/img/templates/thumbnail-gallery.jpg)](https://blackrockdigital.github.io/startbootstrap-thumbnail-gallery/)
+
+[Thumbnail Gallery](http://startbootstrap.com/template-overviews/thumbnail-gallery/) es una plantilla de cuadrícula de miniaturas receptiva para [Bootstrap](http://getbootstrap.com/) creada por [Start Bootstrap](http://startbootstrap.com/).
 
 Esta imagen se utlizo para ordenar el proyecto la cual fue descargada del siguiente sitio.
 
