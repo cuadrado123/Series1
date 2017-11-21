@@ -16,7 +16,7 @@ Esta pagina web se adapta a cualquier dispositivo, con el telefono, con la table
 ### Proyecto conjunto: Programacion y Sistema de informacion.
 ### Instituto Tecnico Salesiano Villada
 
-### Dependencias
+# Dependencias
 Series19.com usa un numero de dependecias para funcionar correctamente:
 | Nombre | Descripcion|
 | ------ | -----------|
@@ -27,7 +27,7 @@ Series19.com usa un numero de dependecias para funcionar correctamente:
 Tambien se a utlizado el Trello para el desarrollo de la pagina web	
 https://trello.com/b/TV6z9z59/series19
 
-## [Start Bootstrap - Thumbnail Gallery](https://startbootstrap.com/template-overviews/thumbnail-gallery/)
+# [Start Bootstrap - Thumbnail Gallery](https://startbootstrap.com/template-overviews/thumbnail-gallery/)
 
 [Thumbnail Gallery](http://startbootstrap.com/template-overviews/thumbnail-gallery/) is a responsive thumbnail grid template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
