@@ -37,7 +37,7 @@ https://trello.com/b/TV6z9z59/series19
 
 ### Informacion De La Serie
 
-![] (https://firebasestorage.googleapis.com/v0/b/series19-4b694.appspot.com/o/serie2.png?alt=media&token=90482964-c499-49ff-a9a4-8b0460b67003)
+![](https://firebasestorage.googleapis.com/v0/b/series19-4b694.appspot.com/o/serie2.png?alt=media&token=90482964-c499-49ff-a9a4-8b0460b67003)
 
 [![Thumbnail Gallery Preview](https://startbootstrap.com/assets/img/templates/thumbnail-gallery.jpg)](https://blackrockdigital.github.io/startbootstrap-thumbnail-gallery/)
 
