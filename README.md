@@ -31,9 +31,10 @@ https://trello.com/b/TV6z9z59/series19
 
 ## Imagenes De La Pagina
 	
-file:///home/antonio/Im%C3%A1genes/serie.png
-file:///home/antonio/Im%C3%A1genes/serie2.png
-	
+![Pagina Principal] (/home/antonio/Imágenes/serie.png)
+
+![Informacio De La Serie] (/home/antonio/Imágenes/serie2.png)
+
 [![Thumbnail Gallery Preview](https://startbootstrap.com/assets/img/templates/thumbnail-gallery.jpg)](https://blackrockdigital.github.io/startbootstrap-thumbnail-gallery/)
 
 [Thumbnail Gallery](http://startbootstrap.com/template-overviews/thumbnail-gallery/) es una plantilla de cuadrícula de miniaturas receptiva para [Bootstrap](http://getbootstrap.com/) creada por [Start Bootstrap](http://startbootstrap.com/).
