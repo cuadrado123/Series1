@@ -8,9 +8,10 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="css/main.css" type="text/css" rel="stylesheet">
 
-		<title>Series19.com</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +20,7 @@
 		<link href="css/thumbnail-gallery.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
+		<title>Series19.com</title>
 	</head>
 
 	<body>
@@ -33,7 +35,7 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Pagina Principal
+							<a class="nav-link" href="bootstrap.html">Pagina Principal
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
@@ -59,7 +61,7 @@
 
 		<!-- Page Content -->
 		<div class="container" id="cuerpito">
-				<h1 class="my-4 text-center text-lg-left">Series Publicadas</h1>
+			<h1 class="my-4 text-center text-lg-left">Series Publicadas</h1>
 				    
 			<div class="row text-center text-lg-left" id="cont_series">
 
@@ -71,6 +73,10 @@
 			<div class="container">
 				<p class="m-0 text-center text-white">Copyright &copy; Informate sobre tu serie favorita 2017</p>
 			</div>
+      		<button class="btn" onclick="IngresoGoogle()">hola</button>
+
+			<!--<i style="font-size:24px" class="fa m-0" id="sesionGoogle">&#xf0d5;</i>-->
+
 			<!-- /.container -->
 		</footer>
 
@@ -78,6 +84,7 @@
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
 		<script
 				src="https://code.jquery.com/jquery-3.2.1.min.js"
 				integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -85,5 +92,7 @@
 		</script>
 		<script type="text/javascript" src="js/java.js"></script>
 	</body>
+
+
 
 </html>
