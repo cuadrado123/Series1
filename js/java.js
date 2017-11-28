@@ -149,33 +149,41 @@ function search(){
      })
 }
 
+var provider = new firebase.auth.GoogleAuthProvider();
+
 
 function IngresoGoogle(){
-    if (!firebase.auth().currentUser) {    
-        var provider = new firebase.auth.GoogleAuthProvider();
-        provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
-        firebase.auth().signInWithPopup(provider).then(function(result) {
-            var token = result.credential.accessToken;
-            var user = result.user;
 
-        }).catch(function(error) {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            var email = error.email;
-            var credential = error.credential;
-        
-        if (error.code === 'auth/account-exists-with-different-credential') {
-            alert("es el mismo usuario");
-        }
+    firebase.auth().signInWithPopup(provider).then(function(result) {
 
-        });
 
-}
+    console.log("gola")
+      var token = result.credential.accessToken;
+      var user = result.user;
+
+      if (user != null) {
+      user.providerData.forEach(function (profile) {
+        console.log("Sign-in provider: "+profile.providerId);
+        console.log("  Provider-specific UID: "+profile.uid);
+        console.log("  Name: "+profile.displayName);
+        console.log("  Email: "+profile.email);
+        console.log("  Photo URL: "+profile.photoURL);
+
+        document.getElementById("google").src = profile.photoURL;
+      });
+    }
+
+    }).catch(function(error) {
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      var email = error.email;
+      var credential = error.credential;
+    });
+
+
 
    }
 function signOut(){
     firebase.auth().signOut();
+    document.getElementById("google").src = "imagenes/google.png";
     }
-
-
-    document.getElementById("google").addEventListener("click",IngresoGoogle);
