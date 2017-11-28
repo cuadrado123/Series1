@@ -151,37 +151,31 @@ function search(){
 
 
 function IngresoGoogle(){
-    var provider = new firebase.auth.GoogleAuthProvider();
-    provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
-    firebase.auth().signInWithPopup(provider).then(function(result) {
-        var token = result.credential.accessToken;
-        var user = result.user;
-
-    }).catch(function(error) {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        var email = error.email;
-        var credential = error.credential;
-    });
-
-    firebase.auth().signInWithRedirect(provider);
-    firebase.auth().getRedirectResult().then(function(result) {
-        if (result.credential) {
+    if (!firebase.auth().currentUser) {    
+        var provider = new firebase.auth.GoogleAuthProvider();
+        provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+        firebase.auth().signInWithPopup(provider).then(function(result) {
             var token = result.credential.accessToken;
-        }
-        var user = result.user;
-        }).catch(function(error) {
+            var user = result.user;
 
+        }).catch(function(error) {
             var errorCode = error.code;
             var errorMessage = error.message;
             var email = error.email;
             var credential = error.credential;
+        
+        if (error.code === 'auth/account-exists-with-different-credential') {
+            alert("es el mismo usuario");
+        }
 
         });
 
-    firebase.auth().signOut().then(function() {
-  
-    }).catch(function(error) {
-  
-    });
+}
+
+   }
+function signOut(){
+    firebase.auth().signOut();
     }
+
+
+    document.getElementById("google").addEventListener("click",IngresoGoogle);
